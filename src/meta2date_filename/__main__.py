@@ -1,0 +1,9 @@
+"""Module executed when running `python -m meta2date_filename`."""
+
+from __future__ import annotations
+
+from . import main
+
+
+if __name__ == "__main__":
+    main()

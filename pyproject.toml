@@ -1,0 +1,18 @@
+[project]
+name = "meta2date-filename"
+version = "0.1.0"
+description = "Rename files based on metadata or file name timestamps via a Tkinter GUI."
+readme = "README.md"
+authors = [{ name = "Piotr Pluta" }]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+meta2date-filename = "meta2date_filename:main"
+
+[build-system]
+requires = ["setuptools>=66"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
